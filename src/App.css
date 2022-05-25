@@ -1,7 +1,7 @@
 .app-div{
 
   background-color: black;
-  width:323px;
+  width:326px;
   margin: 100px auto;
   padding: 4px;
   box-sizing: content-box;
@@ -13,7 +13,7 @@ user-select: none;
 -ms-user-select: none;
 color: white;
   
-  
+height: auto !important;
 
 
 }
@@ -23,7 +23,7 @@ color: white;
   display: grid;
   grid-template-columns: 80px 80px 80px 80px;
   grid-template-rows: 80px 80px 80px 80px 80px ;
-  grid-gap: 1px;
+  grid-gap: 2px;
 
 }
 
@@ -75,7 +75,7 @@ grid-row: 4/6;
   color: white;
   padding: 0;
   background-color: black;
-  min-height: 29px;
+  min-height: 28px;
   margin: 0px;
   word-wrap: break-word;
   
